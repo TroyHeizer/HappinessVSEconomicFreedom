@@ -36,5 +36,5 @@ if __name__ == "__main__":
     print("\nMissing values in merged DataFrame:")
     print(merged_df.isnull().sum())
 
-    # Save the merged DataFrame to a new CSV file (optional)
+    # Save the merged DataFrame to a new CSV file
     merged_df.to_csv('merged_dataset.csv', index=False)
