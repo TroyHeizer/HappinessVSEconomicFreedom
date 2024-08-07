@@ -24,12 +24,3 @@ plt.show()
 
 # Calculate the average Happiness Score by Region
 average_happiness_by_region = merged_df.groupby('Region')['Score'].mean().reset_index()
-
-# Create a bar chart
-plt.figure(figsize=(14, 8))
-sns.barplot(data=average_happiness_by_region, x='Region', y='Score', palette='viridis')
-plt.title('Average Happiness Score by Region')
-plt.xlabel('Region')
-plt.ylabel('Average Happiness Score')
-plt.xticks(rotation=45, ha='right')
-plt.show()
