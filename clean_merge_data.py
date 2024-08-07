@@ -20,6 +20,10 @@ def clean_and_merge(df1, df2):
     # Merge the datasets on the 'Country' column
     merged_df = pd.merge(df1_clean, df2_clean, on='Country', how='inner')
 
+    # Remove the 'WEBNAME' column
+    if 'WEBNAME' in merged_df.columns:
+        merged_df.drop(columns=['WEBNAME'], inplace=True)
+
     return merged_df
 
 if __name__ == "__main__":

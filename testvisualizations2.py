@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+#-----happiness by region visualization-----
+
 # Load the cleaned dataset
 df = pd.read_csv('merged_dataset.csv')
 
