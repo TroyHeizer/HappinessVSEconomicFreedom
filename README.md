@@ -14,6 +14,14 @@ Required Features List
 5. Annotate Your Code:
     * Ensure all Python scripts are well-commented and the README.md is clear and informative.
 
+Visualization Figures
+
+Figure 1 shows the top 35 Happiest Countries
+Figure 2 shows the least happy 35 countries
+Figure 3 shows which countries are happiest by region
+Figure 4 shows which economic freedoms have the most impact on happiness
+Figure 5 show the correlation between happiness and property rights for the top 35 happiest countries
+
 Setup Instructions
 
 Clone repo to your local machien
