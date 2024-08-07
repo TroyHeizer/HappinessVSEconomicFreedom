@@ -16,6 +16,8 @@ Required Features List
 
 Setup Instructions
 
+Clone repo to your local machien
+
 Prerequisites
 Ensure you have the following Python packages installed:
 * pandas
